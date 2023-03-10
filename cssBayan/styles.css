@@ -18,6 +18,11 @@ h1 {
     margin-right: 10%;
 }
 
+.section {
+    border-bottom: 2px solid;
+    color: #BF4930;
+}
+
 .accordion {
     text-align: left;
     border: none;
@@ -31,19 +36,49 @@ h1 {
     color: #BF4930;
 }
 
+.main:hover .section {
+    color:#A61D00;
+}
+
 .main:hover .accordion {
     color:#A61D00;
 }
 
-/*.meme-block {
-    display: none;
+.meme-block {
+    max-height: 0;
+    opacity: 0;
     overflow: hidden;
+    transition: 0.4s;
 }
-*/
+
+.section:hover .meme-block {
+    max-height: 100%;
+    opacity: 100%;
+}
+
+.section:hover .meme-block .meme {
+    max-height: 50vh;
+}
+
+.section:focus {
+    outline: 0;
+}
+
+.section:focus .meme-block {
+    max-height: 100%;
+    opacity: 100%;
+}
+
+.section:focus .meme-block .meme {
+    max-height: 50vh;
+}
 
 .meme {
     display: block;
-    width: 80%;
+    padding: 0 0 1.5rem 0;
+    max-height: 0;
     margin-left: auto;
     margin-right: auto;
+    transition: 0.4s;
+    -webkit-transition: max-height 1s; 
 }
