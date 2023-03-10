@@ -4,10 +4,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 body {
-    font: 1.2em "Fira-Sans", sans-serif;
+    font: 1.2rem "Fira-Sans", sans-serif;
+    background-color: #FFC483;
+    color: #A61D00;
 }
 
 h1 {
@@ -16,21 +19,31 @@ h1 {
 }
 
 .accordion {
-    cursor: pointer;
     text-align: left;
     border: none;
     outline: none;
     transition: 0.4s;
     background-color: transparent;
-    margin: 0;
+    margin: 1rem 0;
     padding: 0;
-    font: 1.5em "Fira-Sans", sans-serif;
+    font: 1.5rem "Fira-Sans", sans-serif;
+    font-weight: bold;
+    color: #BF4930;
+}
+
+.main:hover .accordion {
+    color:#A61D00;
 }
 
 /*.meme-block {
-    padding: 0 18px;
-    background-color: white;
     display: none;
     overflow: hidden;
 }
 */
+
+.meme {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
