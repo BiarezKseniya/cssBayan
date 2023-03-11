@@ -82,3 +82,32 @@ h1 {
     transition: 0.4s;
     -webkit-transition: max-height 1s; 
 }
+
+.caption {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    display: inline-block;
+    -webkit-mask: url(/cssBayan/svg/plus.svg);
+    mask: url(/cssBayan/svg/plus.svg);
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 1rem;
+    background-color:#BF4930;
+    transition: 0.4s;
+}
+.section:hover .icon {
+    transform: rotate(45deg);
+}
+
+.section:focus .icon {
+    transform: rotate(45deg);
+}
+
+.main:hover .icon {
+    background-color:#A61D00;
+}
