@@ -120,7 +120,8 @@ h1 {
     }
 
     .section:focus-within .meme-block .meme {
-        max-height: 50vh;
+        max-height: 75vh;
+        max-width: 70vh;
     }
     
     .meme {
@@ -145,7 +146,8 @@ h1 {
     }
 
     .section:focus-within .meme-block .meme {
-        max-height: 50vh;
+        max-height: 100vh;
+        max-width: 70vh;
     }
     
     .meme {
@@ -181,8 +183,8 @@ h1 {
     }
     
     .section:hover .meme-block .meme {
-        max-height: 50vh;
-        max-width: 100%;
+        max-height: 100vh;
+        max-width: 70vh;
     }
 
     #click .section:active .accordion {
