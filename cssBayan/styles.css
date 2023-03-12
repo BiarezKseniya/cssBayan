@@ -92,8 +92,8 @@ h1 {
 
 .icon {
     display: inline-block;
-    -webkit-mask: url(/cssBayan/svg/plus.svg);
-    mask: url(/cssBayan/svg/plus.svg);
+    -webkit-mask: url(../cssBayan/svg/plus.svg);
+    mask: url(../cssBayan/svg/plus.svg);
     -webkit-mask-size: contain;
     mask-size: contain;
     -webkit-mask-repeat: no-repeat;
@@ -222,8 +222,8 @@ h1 {
 
     .icon {
         display: inline-block;
-        -webkit-mask: url(/cssBayan/svg/plus.svg);
-        mask: url(/cssBayan/svg/plus.svg);
+        -webkit-mask: url(../cssBayan/svg/plus.svg);
+        mask: url(../cssBayan/svg/plus.svg);
         -webkit-mask-size: contain;
         mask-size: contain;
         -webkit-mask-repeat: no-repeat;
