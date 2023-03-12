@@ -50,6 +50,12 @@ h1 {
 
 .section:focus {
     outline: 0;
+    color:#A61D00;
+}
+
+.section:focus-within {
+    outline: 0;
+    color:#A61D00;
 }
 
 .section:focus-within .accordion {
@@ -203,6 +209,16 @@ h1 {
         color: #BA6C5A;
         transition: 0s;
     }
+
+    #click .section:active .icon {
+        background-color: #BA6C5A;
+        transition: 0s;
+    }
+
+    #click .section:active {
+        color: #BA6C5A;
+        transition: 0s;
+    } 
 
     .icon {
         display: inline-block;
